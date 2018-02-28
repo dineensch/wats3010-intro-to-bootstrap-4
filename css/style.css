@@ -17,5 +17,45 @@ div.welcome-text {
 .footer-text-flex {
   flex: 0 1 auto;
 }
+ 
+@media only screen and (max-width: 768px) {
   
+  div.carousel-item {
+    height: 70%;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  .welcome-text p {
+    font-size: 1em;
+  }
   
+  h2, h4 {
+    font-size: 1em;
+  }
+  
+  p, a {
+    font-size: 0.8em;
+  }
+  
+  .btn, .btn-primary {
+    border: 0.5px solid transparent;
+    padding: .350rem .50rem;
+    font-size: 0.8rem;
+    line-height: 1.0;
+  }
+  
+  nav.navbar {
+    height: 80px;
+  }
+  
+  .navbar-toggler {
+      padding: .15rem .70rem;
+      font-size: 1rem;
+      line-height: 1;
+      background: 0 0;
+      border: 1px solid transparent;
+      border-radius: .25rem;
+  }
+  
+}
